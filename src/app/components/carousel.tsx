@@ -146,8 +146,10 @@ export default function Carousel() {
 
       <section
         ref={containerRef}
-        className="flex gap-4 overflow-x-auto span-x scrollbar-hide scroll-smooth
+        className="flex gap-4 overflow-x-auto span-x scrollbar-hidden scroll-smooth
         px-2 p-4"
+
+        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
 
         {ArrayProjects.map((proj, index) =>
