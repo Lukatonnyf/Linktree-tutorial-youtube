@@ -37,7 +37,7 @@ export default function HomePage() {
     <div className="w-full h-screen px-5 py-2 flex justify-center overflow-hidden shadow-custom-purple-700">
 
       <div className="flex flex-col justify-center items-center w-full max-w-[1240px]
-      px-5 lg:flex-row">
+      px-5">
 
         <section className="flex flex-col justify-center items-center p-5 w-full  gap-3 lg:gap-10 ">
           <div className="flex flex-col w-full max-w-2xl py-2 gap-3">
